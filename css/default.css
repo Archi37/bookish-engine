@@ -1,0 +1,249 @@
+/* --------------------------------------------
+    @Creation : archi.laurent@gmail.com
+    @Date : dec 2016
+    @File : default.css
+-----------------------------------------------*/
+/* les reglages de bases : */
+* { padding: 0; margin: 0; text-decoration: none; }
+
+img { border: none; }
+
+h1, h2, h3, p { display: inline; cursor: default; margin: 0 15px 0 0;}
+
+input { margin: 0.5em ; padding: 0.5em;}
+
+INPUT:hover {background:gold;}
+INPUT:focus {background: gold}
+INPUT:focus:hover {background: gold; }
+
+.msg_error { color: red ; margin: 5em; }
+
+.red { color: red; }
+.barre { text-decoration:line-through; color:red !important; }
+
+html{ padding-bottom:1px 0;}
+
+body{ padding-bottom:1px 0; }
+
+#container{ 
+	width:auto;
+	margin:0 auto; 
+}
+
+#box_haute{ float: left; display:block; width: 50em; padding: 0 0 0.5em 1em;}
+
+.for_link { padding-left: 50;%
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	margin: 1em;
+}
+
+.for_link a{ 
+	background: url("../images/link-extern.png") no-repeat right;
+	color: black; 
+	padding-left: 70%;
+	margin: 0 0 0 1em; }
+
+
+form.myformlogin { width: 50%; padding: 1em; }
+
+div.for_login { 
+	padding: 1em 0 1em 3em;
+	margin: 1em;
+	background: #85a185 ;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	width: 50em;
+}
+
+.for_decal { width: 10em ; }
+
+button.btn_flat_vert {
+	position: absolute;
+	background: #34d94d;
+	background-image: -webkit-linear-gradient(top, #34d94d, #34d94d);
+	background-image: -moz-linear-gradient(top, #34d94d, #34d94d);
+	background-image: -ms-linear-gradient(top, #34d94d, #34d94d);
+	background-image: -o-linear-gradient(top, #34d94d, #34d94d);
+	background-image: linear-gradient(to bottom, #34d94d, #34d94d);
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 100%;
+	padding: 8px 15px 8px 15px;
+	text-decoration: none;
+}
+
+button.btn_flat_vert:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
+
+
+
+.class_for_alf, .div_site { 
+	display: block !important;
+	padding: 5px 0 5px 15px;
+	margin: 10px;
+	background: #85a185 ;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+.div_users{ 
+	display: block;
+	padding: 7px;
+	margin: 10px;
+	margin-top: 5px;
+	background: #88cd89 ;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+
+p.for_login {
+	position: relative;
+	color: black;
+	font-weight: bold;
+	background:gold;
+	padding: 0 10px 0 10px;
+	max-width: 100px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.for_role_comm {
+	position: absolute;
+	left: 35% !important;
+	font-weight: bold;
+	padding: 0 10px 0 10px;
+	width: 9em;
+	text-align: center;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+
+
+.for_gestion { background: #ff7373 ; }		/* Couleur Rouge clair */
+.for_collabo { background: green ; }		/* Couleur VERT */
+.for_contrib { background: gold ; }		/* Couleur  OR*/
+.for_lecture { background: none ; }		/* Pas de fond */
+
+p.for_users_actif {
+	position: absolute;
+	color: black;
+	left: 46% !important;
+	font-weight: bold;
+	background:gold;
+	padding: 0 10px 0 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+
+p.for_users_notif {
+	position: absolute;
+	color: black;
+	left: 51% !important;
+	font-weight: bold;
+	background:gold;
+	padding: 0 10px 0 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+
+}
+
+.for_lign_site, .for_lign_site_type { font-weight: bold;	}
+
+.repert_for_doc {
+	position: relative;
+	color: gold;
+	font-weight: bold;
+	background: #0040f6;	/* Bleu léger*/
+	padding: 0 0 0 0.5em;
+	margin: 0.3em;
+	width: auto;
+	
+}
+
+p.name_for_doc, a.name_for_doc{
+	width: 250px !important; 
+	overflow: hidden;
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	background: #b8ffbf;
+	padding-left: 1em;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
+	
+}
+
+p.taille_for_doc, p.proprio_for_doc { 
+	font-weight: bold;
+	padding-left: 0.3em;
+}
+
+p.dates_for_doc { color: blue; }
+
+p.store_for_doc { color: red;}
+
+.select_sites { padding:0.5em; }
+
+select.select_sites {
+	background: gold;
+	color: red;
+	font-weight: bold;
+}
+
+p.check_date, p.check_stor, p.check_mim {
+	padding: 0 10px 0 8px;
+	font-weight: bold;
+	display:block;
+	
+}
+
+p.for_button input[type=submit] {
+	margin: 2px 8px 2px 8px;
+
+}
+p.for_button {
+	padding-left: 2em;
+	margin: 2px 8px 2px 8px;
+}
+
+span.form_login, span.form_mdp {
+	display: inline;
+	margin: 2em 1em 2em 1em;
+	width: 70%;
+	padding: 0 0 1eme 0;	
+}
+
+.add_btn { position: absolute ; display: block; margin-left: 10em;  }
+
+
+
+
+
